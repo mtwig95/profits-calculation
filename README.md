@@ -28,3 +28,4 @@ project can be fond in http://localhost:8080/profits-calculation/
 ## Help
 
 make sure in XAMPP control panel run port 8080
+and add user to MySql: username=maytal, password=test1234
