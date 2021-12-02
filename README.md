@@ -1,28 +1,23 @@
 # profits-calculation
 
-Fetching data from endpoint and calculate profit
+Fetching data from endpoint and calculate profits.
 
 ## Description
 
 The project store data into a table inside a MYSQL database and implement methods that calculate from the database the following:
- * a. Net Sales - sum of total_price fields of orders where financial_status is one of the following: 'paid', 'partially_paid'
- * b. Production costs - sum of total_production_cost fields of orders where financial_status is one of the following: 'paid', 'partially_paid' and fulfillment_status is 'fulfilled'
- * c. Gross profit - Net Sales with Production substructed
- * d. Gross margin - what percent out of Net Sales does Gross Profit make
+ * Net Sales - sum of total_price fields of orders where financial_status is one of the following: 'paid', 'partially_paid'
+ * Production costs - sum of total_production_cost fields of orders where financial_status is one of the following: 'paid', 'partially_paid' and fulfillment_status is 'fulfilled'
+ * Gross profit - Net Sales with Production substructed
+ * Gross margin - what percent out of Net Sales does Gross Profit make
 
 ## Getting Started
-
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
 
 ### Installing
 
  * Download the project to C:\xampp\htdocs (make sure the index.php in the main folder).
  * Start XAMPP control panel
  * Start Apach and MySQL
- * select MySql admin button
+ * In MySql admin button (http://localhost:8080/phpmyadmin/) 
  * select import tab
  * locate orders.sql file and press butttom to import
 
