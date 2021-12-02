@@ -37,17 +37,10 @@ if (isset($net_res) || isset($production_res)) {
 $conn->close();
 ?>
 <!DOCTYPE html>
-<?php include('style.php'); ?>
-
 <html>
-<body class="grey lighten-4">
-<nav class="white z-depth-0">
-    <h4 class="center grey-text">Home Task - Beprofit</h4>
-    <div class="container">
-        <div class="center grey-text">Net Sales - sum of total_price fields of orders where financial_status is one of the following: 'paid', 'partially_paid'</div>
-        <div class="center grey-text">Production costs - sum of total_production_cost fields of orders where financial_status is one of the following: 'paid', 'partially_paid' and fulfillment_status is 'fulfilled'</div>
-        <div class="center grey-text">Gross profit - Net Sales with Production substructed</div>
-        <div class="center grey-text">Gross margin - what percent out of Net Sales does Gross Profit make</div>
-</nav>
-</body>
+<h1 class="center grey-text">Home Task - Beprofit</h1>
+<h3 class="center grey-text">Net Sales - sum of total_price fields of orders where financial_status is one of the following: 'paid', 'partially_paid'</h3>
+<h3 class="center grey-text">Production costs - sum of total_production_cost fields of orders where financial_status is one of the following: 'paid', 'partially_paid' and fulfillment_status is 'fulfilled'</h3>
+<h3 class="center grey-text">Gross profit - Net Sales with Production substructed</h3>
+<h3 class="center grey-text">Gross margin - what percent out of Net Sales does Gross Profit make</h3>
 </html>
